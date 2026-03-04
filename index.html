@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Moodify 🎵</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Animated background blobs -->
+<div class="blob blob1"></div>
+<div class="blob blob2"></div>
+<div class="blob blob3"></div>
+
+<div class="container">
+    <h1>🎵 Moodify</h1>
+    <p class="subtitle">Music that understands your mood.</p>
+
+    <div class="control-group">
+        <select id="mood-select">
+            <option value="">-- Choose Your Mood --</option>
+            <option value="happy">Happy</option>
+            <option value="sad">Sad</option>
+            <option value="energetic">Energetic</option>
+            <option value="sensational">Sensational</option>
+            <option value="romantic">Romantic</option>
+            <option value="relaxing">Relaxing</option>
+            <option value="worship">Gospel – Worship</option>
+            <option value="praise">Gospel – Praise</option>
+        </select>
+
+        <button id="recommend-btn">
+            <span>Find My Playlist</span>
+        </button>
+    </div>
+
+    <div id="recommendations"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "happy": [
+    {"title": "Happy Vibes Playlist", "url": "https://www.youtube.com/playlist?list=PLx..."},
+    {"title": "Feel Good Hits", "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"}
+  ],
+  "sad": [
+    {"title": "Chill Sad Songs", "url": "https://www.youtube.com/playlist?list=PLx..."},
+    {"title": "Melancholy Melodies", "url": "https://www.youtube.com/watch?v=3JZ4pnNtyxQ"}
+  ],
+  "energetic": [
+    {"title": "Workout Pump Playlist", "url": "https://www.youtube.com/playlist?list=PLx..."},
+    {"title": "High Energy Hits", "url": "https://www.youtube.com/watch?v=2Vv-BfVoq4g"}
+  ]
+}
