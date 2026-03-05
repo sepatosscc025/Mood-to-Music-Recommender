@@ -1,8 +1,7 @@
+// key imported from config.js
 const recommendBtn = document.getElementById('recommend-btn');
 const moodSelect = document.getElementById('mood-select');
 const recommendationsDiv = document.getElementById('recommendations');
-
-const YT_API_KEY = "AIzaSyBvKpcVkRs3QhSYjun1C3oZbDtrlNUYcpM";
 
 const moodQueries = {
   happy: "happy upbeat music playlist",
